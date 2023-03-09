@@ -4,22 +4,26 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: #2e2f42;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo .logo-part {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
-.nav-list {
-  list-style: none;
+.link {
+  text-decoration: none;
 }
+
 .nav-list-item {
   font-family: "Roboto";
   font-style: normal;
@@ -27,12 +31,18 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
   color: #2e2f42;
   text-decoration: none;
 }
 
-.address-list {
-  list-style: none;
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-list-item {
@@ -45,6 +55,11 @@ body {
   color: #434455;
   text-decoration: none;
 }
+
+.address-list-item:hover,
+.address-list-item:focus {
+  color: #404bbf;
+}
 .hero {
   background: #2e2f42;
 }
@@ -55,18 +70,25 @@ body {
   font-size: 56px;
   line-height: 60px;
   text-align: center;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
 
-.principles-list {
+.list {
   list-style: none;
 }
 
@@ -96,18 +118,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.projects-list {
-  list-style: none;
+  line-height: 1.11;
 }
 
 .team {
   background-color: #f4f4fd;
-}
-
-.team-list {
-  list-style: none;
 }
 
 .member-name {
@@ -134,18 +149,8 @@ body {
   background-color: #2e2f42;
 }
 
-.footer-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
+.logo .footer-logo-part {
   color: #f4f4fd;
-  text-decoration: none;
-}
-
-.footer-logo .logo-part {
-  color: #4d5ae5;
 }
 
 .footer-text {
@@ -159,10 +164,8 @@ body {
 
 /* Portfolio */
 
-.buttons-list {
-  list-style: none;
-}
 .btn {
+  font-family: "Roboto", sans-serif;
   width: 116px;
   height: 48px;
   background-color: #f4f4fd;
@@ -172,6 +175,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: #4d5ae5;
 }
 
@@ -183,15 +188,13 @@ body {
   color: #ffffff;
 }
 
-.menu-list {
-  list-style: none;
-}
-
 .list-item-name {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
   color: #2e2f42;
 }
 
@@ -199,7 +202,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
