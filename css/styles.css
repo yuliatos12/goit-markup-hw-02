@@ -1,6 +1,20 @@
+:root {
+  --text-color: #434455;
+  --logo-color: #4d5ae5;
+  --secondary-text-color: #2e2f42;
+  --hover-color: #404bbf;
+  --hero-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --button-border: #e7e9fc;
+  --box-shadow: rgba(0, 0, 0, 0.15);
+  --box-shadow-one: rgba(0, 0, 0, 0.1);
+  --box-shadow-two: rgba(0, 0, 0, 0.08);
+  --box-shadow-three: rgba(0, 0, 0, 0.12);
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text-color);
   letter-spacing: 0.02em;
 }
 
@@ -8,14 +22,14 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  color: #4d5ae5;
+  color: var(--logo-color);
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo .logo-part {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .link {
@@ -26,12 +40,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .nav-list-item:hover,
 .nav-list-item:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .address {
@@ -39,26 +53,24 @@ body {
 }
 
 .address-list-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .address-list-item:hover,
 .address-list-item:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 .hero {
-  background: #2e2f42;
+  background: var(--secondary-text-color);
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .hero-btn {
@@ -68,10 +80,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--logo-color);
+  box-shadow: 0px 4px 4px var(--box-shadow);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .list {
@@ -82,26 +94,24 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .principle-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .section-heading {
-  font-weight: 700;
   font-size: 36px;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   line-height: 1.11;
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--footer-text-color);
 }
 
 .member-name {
@@ -109,30 +119,27 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .member-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #434455;
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--secondary-text-color);
 }
 
 .logo .footer-logo-part {
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 /* Portfolio */
@@ -141,35 +148,34 @@ body {
   font-family: "Roboto", sans-serif;
   width: 116px;
   height: 48px;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background-color: var(--footer-text-color);
+  border: 1px solid var(--button-border);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .btn:hover {
-  background-color: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--hover-color);
+  box-shadow: 0px 3px 1px var(--box-shadow-one),
+    0px 2px 1px var(--box-shadow-two), 0px 2px 2px var(--box-shadow-three);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--hero-color);
 }
 
 .list-item-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .list-item-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--text-color);
 }
