@@ -72,6 +72,7 @@ body {
   text-align: center;
   line-height: 1.07;
   color: var(--hero-color);
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -95,6 +96,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
