@@ -64,6 +64,7 @@ body {
 }
 .hero {
   background: var(--secondary-text-color);
+  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -106,6 +107,7 @@ body {
   font-size: 36px;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   line-height: 1.11;
 }
@@ -118,6 +120,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--secondary-text-color);
 }
@@ -171,6 +174,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
